@@ -1,0 +1,133 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 35px 40px; 
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+.LoginSignUp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.LoginSignUp span {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background-color: rgb(242, 242, 242);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.LoginSignUp span:hover {
+    cursor: pointer;
+    background-color: rgba(1, 188 , 141 , 0.2);
+    color: rgb(1, 188 , 141);
+}
+.myButtons {
+    display: flex;
+}
+.myButtons button {
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    height: 38px;
+    padding: 4px;
+}
+.firstBtn{
+    background-color: transparent;
+    font-weight: 600;
+    color: black;
+    padding: 4px;
+}
+.LastBtn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 4px;
+}
+.firstBtn:hover{
+    cursor: pointer;
+}
+
+.LastBtn:hover{
+    cursor: pointer;
+    opacity: 0.4;
+} 
+
+main {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+}
+.imageBackground {
+    width: 48%;
+    height: 100vh;
+    padding: 70px;
+}
+.loginList {
+    width: 52%;
+}
+.form {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+.textLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textLogo h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form input {
+    margin-top: 40px;
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 8px;
+    outline: none;
+    padding: 0 20px;
+}
+.form button {
+    width: 450px;
+    height: 48px;
+    border: 1px solid green;
+    border-radius: 25px;
+    background-color: rgb(184, 184, 184);
+    color: white;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.listTag{
+    position: relative;
+}
+.listTag a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.borderBottom {
+    display: block;
+    border-bottom: 4px solid gray;
+    width: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}

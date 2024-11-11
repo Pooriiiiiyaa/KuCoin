@@ -1,0 +1,191 @@
+header {
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px 20px; 
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in;
+    font-weight: 500;
+    font-size: 12.6px;
+}
+ul li a:hover {
+    color: rgb(1, 188 , 141);
+}
+ul input {
+    width: 160px;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    padding-left: 35px;
+    outline: none;
+    background-color: rgb(242, 242, 242);
+    
+}
+::placeholder {
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: gray;
+  }
+ul span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 59px;
+    right: 130px;
+}
+.LoginSignUp {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.LoginSignUp span {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background-color: rgb(242, 242, 242);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.LoginSignUp span:hover {
+    cursor: pointer;
+    background-color: rgba(1, 188 , 141 , 0.2);
+    color: rgb(1, 188 , 141);
+}
+.myButtons {
+    display: flex;
+}
+.myButtons button {
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    height: 38px;
+    padding: 4px;
+}
+.firstBtn{
+    background-color: transparent;
+    font-weight: 600;
+    color: black;
+    padding: 4px;
+}
+.LastBtn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 4px;
+}
+.firstBtn:hover{
+    cursor: pointer;
+}
+
+.LastBtn:hover{
+    cursor: pointer;
+    opacity: 0.4;
+} 
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.QRcodeBgc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    /* margin-bottom: 100px; */
+    margin-right: 120px;
+    animation: QRCode 2s infinite;
+}
+@keyframes QRCode {
+    0%{
+        transform: translate3d(0px, 0px, 0px);
+    }
+    50%{
+        transform: translate3d(0px, -6px, 0px);
+    }
+    
+}
+.QRcodeBgc h3 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.QRcodeBgc p {
+    color: rgb(1, 188 , 141);
+}
+.text h1{
+    color: black;
+    font-size: 55px;
+    line-height: 80px;
+}
+
+.text p {
+    color: gray;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.position{
+    position: relative;
+}
+.position input {
+    margin-top: 50px;
+    width: 500px;
+    background-color: transparent;
+    height: 75px;
+    padding-left: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+   
+}
+::placeholder {
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: gray;
+  }
+
+.position button {
+    width: 190px;
+    position: absolute;
+    top: 60px;
+    right: 115px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 5px 7px;
+    height: 55px;
+    border-radius: 15px;
+}
+.position button:hover{
+    cursor: pointer;
+    opacity: 0.4;
+} 
